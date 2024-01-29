@@ -1,1 +1,22 @@
+name: Basic action
 
+on:
+  push:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup python
+        uses: setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      
+    
