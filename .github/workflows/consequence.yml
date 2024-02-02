@@ -2,7 +2,7 @@ name: Deployment Workflow
 
 on:
   workflow_run:
-    workflows: ["main"]
+    workflows: ["Basic action"]
     types:
       - completed
 
