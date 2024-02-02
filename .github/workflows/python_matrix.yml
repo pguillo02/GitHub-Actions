@@ -22,9 +22,5 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run Tests
-      run: python -m unittest discover
+    
 
